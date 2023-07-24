@@ -1,0 +1,84 @@
+header {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    background-color: rgb(34, 33, 32);
+    padding-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 2px 4px rgba( 0, 0, 0, 0.2);
+}
+
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+}
+
+.header-only {
+    color: white;
+    margin-bottom: 0px;
+    padding-left: 25px;
+}
+
+.header-logo {
+    float: right;
+    margin-right: 30px;
+}
+
+.header-logo img {
+    width: 40px;
+    height: auto;
+    padding-right: 10px;
+
+}
+
+.tombol-header {
+    background-color: rgb(123, 49, 207);
+    border-radius: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 21px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+ .tombol-header {
+    display: none; /* Menyembunyikan tombol */
+    }
+}
+
+.headline {
+    padding-top: 15%;
+}
+
+.headline h1 {
+    text-align: center;
+    color: #10FF9B;
+    margin-bottom: 3px;
+    font-size: 50px;
+
+}
+
+.headline h4 {
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(165, 165, 165);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    padding-bottom: 12px;
+    /*  */
+    border-right: 1px solid #000; /* Membuat garis animasi ketikan */
+    overflow: hidden; /* Mengatur teks tetap dalam satu baris */
+    white-space: nowrap; /* Menghindari pemisahan teks menjadi beberapa baris */
+    /* animation: typing 2s steps(40); */
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
